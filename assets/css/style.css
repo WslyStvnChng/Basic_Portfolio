@@ -1,7 +1,7 @@
 /*Top half elements */
 
 body {
-  font-family: 'Arial' san-serif;
+  font-family: 'font-family: 'Georgia', Times, Times New Roman, serif;
   background-color: white;
   padding: 0;
   margin: 0;
@@ -9,6 +9,7 @@ body {
 
 #wrapper {
   max-width: 960px;
+  height: 500px;
   margin: 0 auto;
   background-color: #d9d9d9;
   padding: 32px;
@@ -23,7 +24,7 @@ header {
 header h1 {
   position: fixed;
   top: -14px;
-  left: 162px;
+  left: 175px;
   text-transform: uppercase;
   text-align: left;
   background: #4aaaa5;
@@ -48,7 +49,10 @@ ul.main_menu {
   display: inline;
   padding: 0 10px 0 10px;
   font-size: 16px;
+  margin-top: -30px;
   float: right;
+  margin-left: 30px;
+  text-align: center;
 }
 
 .main_menu a {
@@ -103,6 +107,26 @@ h2 {
   height: 50px;
 }
 
+#paragraph {
+
+}
+
+/*Connect with me */
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  border: 1px solid white;
+}
+
+aside {
+  background-color: #ffffff;
+  float: right;
+  width: 270px;
+  padding: 10px;
+  width: 30%;
+}
 
 
 
