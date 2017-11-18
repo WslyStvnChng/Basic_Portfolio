@@ -155,16 +155,36 @@ aside {
 .container {
   overflow: auto;
 }
+.portal_fusion {
+  float: left;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0 5px 0 5px;
+  opacity: 1;
+}
 
-.portal,
 .portal,
 .widgets {
   position: relative;
   float: left;
-  width: 40%;
-  height: 20%;
-  margin: 10px;
+  width: 150px;
+  height: 130px;
+  margin: 1px;
+  opacity: 0.9;
 }
+
+.portal {
+  background-color: white;
+}
+
+h4{
+  color: black bold;
+  margin-left: 0.6%;
+  text-align: center;
+}
+
 
 /* Footer */
 #footer {
@@ -180,10 +200,7 @@ aside {
   margin-left: 128px;
 }
 
-h4{
-  color: #4aaaa5;
-  margin-left: 0.6%;
-}
+
 
 
 
