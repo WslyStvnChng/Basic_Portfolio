@@ -71,9 +71,6 @@ ul.main_menu {
   color: black;
 }
 
-.nav:hover {
-  color: red;
-}
 /*Content of the page with paragraphs */
 
 .content {
@@ -85,6 +82,10 @@ ul.main_menu {
   content: "";
   display: block;
   clear: both;
+}
+
+.contact{
+  overflow: auto;
 }
 
 #about {
