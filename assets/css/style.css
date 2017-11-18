@@ -1,7 +1,7 @@
 /*Top half elements */
 
 body {
-  font-family: 'font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'font-family: 'Georgia', Times, Times New Roman, serif; 
   background-color: white;
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@ body {
   max-width: 960px;
   height: 500px;
   margin: 0 auto;
-  background-color: #d9d9d9;
+  background-color: #20B2AA;
   padding: 32px;
 }
 
@@ -23,15 +23,15 @@ header {
 
 header h1 {
   position: fixed;
-  top: -14px;
-  left: 175px;
+  top: -2px;
+  left: 192px;
   text-transform: uppercase;
   text-align: left;
-  background: #4aaaa5;
+  /*background: #4aaaa5;*/
   color: white;
   line-height: 50px;
-  border: solid lightgrey;
-  padding-right: 50px;
+/*  border: solid lightgrey;
+*/ padding: 3px;
 }
 
 .main_menu {
@@ -42,7 +42,9 @@ header h1 {
 }
 
 ul.main_menu {
-  margin-top: 15px;
+  margin-top: 19px;
+  width: 930px;
+  margin-left: 30px;
 }
 
 .main_menu li {
@@ -52,19 +54,21 @@ ul.main_menu {
   margin-top: -30px;
   float: right;
   margin-left: 30px;
-  text-align: center;
+  text-align: right;
 }
 
+/* About, Portfolio and Contact link */
 .main_menu a {
   text-decoration: none;
-  color: #4aaaa5;
+  color: white;
   font-size: 16px;
-  padding: 8px;
+  padding: 4px;
+  width: 270px;
   font-variant: small-caps;
 }
 
 .main_menu a:hover {
-  color: red;
+  color: black;
 }
 
 .nav:hover {
@@ -105,49 +109,61 @@ h2 {
   color: #4aaaa5;
   text-transform: uppercase;
   height: 50px;
+  margin-left: 3px;
 }
 
-#paragraph {
+/*#paragraph {
 
-}
+}*/
 
 /*Connect with me */
 
+h3 {
+  text-align: center;
+  color: #4aaaa5;
+}
+
 section {
   float: left;
-  margin: 15px 1.5%;
+  margin: 15px 3%;
   width: 62%;
-  border: 1px solid white;
+  border: 3px solid white;
+  background-color: lightgrey;
 }
 
 aside {
-  background-color: #ffffff;
+  background-color: lightgrey;
   float: right;
   width: 270px;
   padding: 10px;
+  margin-top: 15px;
+  border: 3px solid white;
+}
+
+.icons {
   width: 30%;
+  resize: both;
 }
-
-#icons {
-  height: 1px;
-  width: 1px;
-  margin-top: 10px
-}
-
 
 /* Footer */
 #footer {
   position: fixed;
-  width: 960px;
+  text-align: center;
+  width: 78.3%;
   bottom: 0;
-  background: darkgrey;
+  background: lightgrey;
   color: white;
-  padding: 20px;
-  text-align: center
-  border: 8 0 0 0;
-  border-top: 5px solid #4aaaa5;
-  margin-left: -35px;
+  padding: 11px;
+  border: 14px 6px 6px 20px;
+  border-top: 5px solid darkgrey;
+  margin-left: 128px;
 }
+
+h4{
+  color: #4aaaa5;
+  margin-left: 0.6%;
+}
+
 
 
 
