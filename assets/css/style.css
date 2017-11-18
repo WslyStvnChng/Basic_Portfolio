@@ -141,9 +141,29 @@ aside {
   border: 3px solid white;
 }
 
+#messagebox {
+  width: 306px;
+}
+
 .icons {
   width: 30%;
   resize: both;
+}
+
+/*portfolio container*/
+
+.container {
+  overflow: auto;
+}
+
+.portal,
+.portal,
+.widgets {
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 20%;
+  margin: 10px;
 }
 
 /* Footer */
