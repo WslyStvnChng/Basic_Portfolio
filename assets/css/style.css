@@ -180,8 +180,13 @@ aside {
   padding: 2px;
 }
 
+.portal:hover {
+  opacity: 1;
+}
+
 .portal h4{
   color: 2px black bold;
+  background-color: #4aaaa5;
   text-align: center;
   margin-left: 2px;
   text-align: center;
