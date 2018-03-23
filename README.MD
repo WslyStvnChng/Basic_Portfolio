@@ -3,7 +3,7 @@
 
 GitHub Pages: https://https://github.com/WslyStvnChng/Basic_Portfolio
 
-<b>Built Using:<b>
+Built Using:
 <ul>
   <li>HTML</li>
   <li>CSS</li>
