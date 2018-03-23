@@ -1,5 +1,5 @@
 
-Project 1: Build a professional portfolio site using HTML/CSS.
+<b>Project 1: Built a professional portfolio site using HTML/CSS </b>
 
 GitHub Pages: https://https://github.com/WslyStvnChng/Basic_Portfolio
 
@@ -8,4 +8,6 @@ GitHub Pages: https://https://github.com/WslyStvnChng/Basic_Portfolio
   <li>HTML</li>
   <li>CSS</li>
 </ul>
+  
+**Newly updated portfolio under construction
 
